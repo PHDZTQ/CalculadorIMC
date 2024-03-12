@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Calculador IMC</string>
+    <string name="title_activity_first_app">FirstAppActivity</string>
+</resources>
