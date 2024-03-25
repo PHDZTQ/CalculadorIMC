@@ -18,12 +18,12 @@ class MenuActivity : AppCompatActivity() {
     }
 
     private fun navigateToSaludoApp() {
-        val intent = Intent(this, ImcCalculatorActivity::class.java)
+        val intent = Intent(this, FirstAppActivity::class.java)
         startActivity(intent)
     }
 
     private fun navigateToIMCApp() {
-        val intent = Intent(this, FirstAppActivity::class.java)
+        val intent = Intent(this, ImcCalculatorActivity::class.java)
         startActivity(intent)
     }
 }

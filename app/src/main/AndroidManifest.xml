@@ -13,6 +13,9 @@
         android:theme="@style/Theme.CalculadorIMC"
         tools:targetApi="31">
         <activity
+            android:name=".imccalculator.ResultIMCActivity"
+            android:exported="false" />
+        <activity
             android:name=".imccalculator.ImcCalculatorActivity"
             android:exported="false" />
         <activity
@@ -31,7 +34,7 @@
             android:name=".firstapp.FirstAppActivity"
             android:exported="true"
             android:label="@string/title_activity_first_app"
-            android:theme="@style/Theme.CalculadorIMC"></activity>
+            android:theme="@style/Theme.CalculadorIMC" />
     </application>
 
 </manifest>
